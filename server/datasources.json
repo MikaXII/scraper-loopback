@@ -1,0 +1,11 @@
+{
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "scraper",
+    "username": "scrapUser",
+    "password": "abc123",
+    "name": "mongoDs",
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Rom",
+  "plural": "Roms",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "System": {
+      "type": "System",
+      "required": true
+    },
+    "id": {
+      "type": "number"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

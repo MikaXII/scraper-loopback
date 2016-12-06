@@ -1,0 +1,7 @@
+db.createUser(
+  {
+    user: "scrapUser",
+    pwd: "abc123",
+    roles: [ { role: "readWrite", db: "scraper" } ]
+  }
+)
